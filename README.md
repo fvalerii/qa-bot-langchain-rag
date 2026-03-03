@@ -1,4 +1,4 @@
-# 🤖 Hybrid Research Q&A Bot: Watsonx & Hugging Face
+# 🤖 Hybrid Research Q&A Bot: Enterprise Watsonx & Open-Source Hugging Face
 
 ### *Dual-Engine Retrieval-Augmented Generation (RAG)*
 
