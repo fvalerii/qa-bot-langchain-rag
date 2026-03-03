@@ -11,8 +11,8 @@
 #   "pypdf",
 #   "pydantic<2.10.0",
 #   "accelerate>=0.34.0",
-#   "transformers>=4.45.0",
-#   "FlagEmbedding",
+#   "transformers>=4.45.0,<4.48.0",
+#   "FlagEmbedding>=1.3.2",
 #   "torch"
 # ]
 # ///
