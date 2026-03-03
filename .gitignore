@@ -1,0 +1,69 @@
+# -----------------------------
+# 🛡️ SECURITY & CREDENTIALS (CRITICAL)
+# -----------------------------
+.env
+.env.local
+.env.env
+.env.*
+secrets.json
+
+# -----------------------------
+# 🤖 PROJECT SPECIFIC: RAG Databases & Local State
+# -----------------------------
+# Watsonx persistent vector database
+chroma_db_watsonx/
+chroma_db/
+
+# Hugging Face FAISS index files
+faiss_index/
+
+# Document hash files used for multi-tenant isolation
+*.hash
+pdf.hash
+
+# General database files
+db/
+*.db
+*.sqlite3
+
+# Ignore input PDF data (keep the repo clean)
+data/
+uploads/
+*.pdf
+
+# -----------------------------
+# 🐍 PYTHON & VIRTUAL ENV
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# -----------------------------
+# 📓 JUPYTER NOTEBOOKS
+# -----------------------------
+.ipynb_checkpoints/
+.virtual_envs/
+
+# -----------------------------
+# 💻 SYSTEM & EDITORS
+# -----------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -----------------------------
+# 📈 LOGS
+# -----------------------------
+*.log
+logs/
